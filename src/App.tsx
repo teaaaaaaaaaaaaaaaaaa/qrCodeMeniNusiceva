@@ -38,6 +38,36 @@ function App() {
   return (
     <main className="app">
       <div className="menu-card">
+        {/* Card corner ornaments */}
+        <div className={`card-corner-ornament card-top-left ${showContent ? 'visible' : ''}`}>
+          <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30,10 L32,18 L40,16 L34,22 L42,26 L34,28 L36,36 L30,30 L24,36 L26,28 L18,26 L26,22 L20,16 L28,18 Z"
+                  fill="#8B7355" stroke="#6B5345" strokeWidth="0.5"/>
+            <circle cx="30" cy="26" r="3" fill="#d4af37" opacity="0.8"/>
+          </svg>
+        </div>
+        <div className={`card-corner-ornament card-top-right ${showContent ? 'visible' : ''}`}>
+          <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30,10 L32,18 L40,16 L34,22 L42,26 L34,28 L36,36 L30,30 L24,36 L26,28 L18,26 L26,22 L20,16 L28,18 Z"
+                  fill="#8B7355" stroke="#6B5345" strokeWidth="0.5"/>
+            <circle cx="30" cy="26" r="3" fill="#d4af37" opacity="0.8"/>
+          </svg>
+        </div>
+        <div className={`card-corner-ornament card-bottom-left ${showContent ? 'visible' : ''}`}>
+          <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30,10 L32,18 L40,16 L34,22 L42,26 L34,28 L36,36 L30,30 L24,36 L26,28 L18,26 L26,22 L20,16 L28,18 Z"
+                  fill="#8B7355" stroke="#6B5345" strokeWidth="0.5"/>
+            <circle cx="30" cy="26" r="3" fill="#d4af37" opacity="0.8"/>
+          </svg>
+        </div>
+        <div className={`card-corner-ornament card-bottom-right ${showContent ? 'visible' : ''}`}>
+          <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30,10 L32,18 L40,16 L34,22 L42,26 L34,28 L36,36 L30,30 L24,36 L26,28 L18,26 L26,22 L20,16 L28,18 Z"
+                  fill="#8B7355" stroke="#6B5345" strokeWidth="0.5"/>
+            <circle cx="30" cy="26" r="3" fill="#d4af37" opacity="0.8"/>
+          </svg>
+        </div>
+
         <div className="title-container">
           <h1 className="main-title">
             {displayedText}
